@@ -5,10 +5,9 @@ Password Locker is a app that allows users to create password their accounts or 
 To get a local copy to your machine. Runs in the commandline
 
 # Setup
-Download or clone files from this repo. Repository link: Password Locker
+Download or clone files from this repo. <br>Repository link: Password Locker<br>
 Developed with<br>
-Python<br>
-BDD
+Python 3.8<br>
 
 # Objectives
 Users can create random password
