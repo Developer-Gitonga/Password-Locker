@@ -1,7 +1,9 @@
+#! /usr/bin/env python3.8
+
 import string
 import random
-from credential import Credential
-from user import User
+from user_credentials_class import Credential
+from user_class import User
 
 
 def random_password_generator():
