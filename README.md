@@ -1,5 +1,5 @@
 # Password Locker
-Password Locker is a app that allows users to create password their accounts or Store previous password and usernames.
+Password Locker is an app that allows users to create password their accounts or Store previous password and usernames.
 
 # Get Started
 To get a local copy to your machine. Runs in the commandline.
