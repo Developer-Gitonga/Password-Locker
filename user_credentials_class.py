@@ -3,8 +3,8 @@ class Credential:
     This is where the account get stored
     """
     accounts = []
-    """
     
+    """
     This where the account gets initialised
     """
     def __init__(self, username, password, account_name, account_key):
@@ -27,6 +27,7 @@ class Credential:
         for account in cls.accounts:
             if account.account_key == account_key:
                 return account
+            
     """
     This loops through the accounts list and displays all the accounts available
     """
