@@ -3,7 +3,7 @@ from credential import Credential
 
 class TestCredential(unittest.TestCase):
     def setUp(self):
-        self.new = Credential("Eugene","Redcarpet", "Twiiter", 1233)
+        self.new = Credential("Dennis","Redcarpet", "Twiiter", 1233)
 
     def tearDown(self):
         Credential.accounts = []
