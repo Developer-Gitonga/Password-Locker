@@ -42,3 +42,4 @@ class Credential:
             if account.account_key == account_key:
                 print(f"Deleted {account.account_name} account with the username {account.username}")
                 cls.accounts.remove(account)
+                
