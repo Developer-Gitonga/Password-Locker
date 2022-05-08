@@ -5,6 +5,7 @@ class User:
     """
     
     users = []
+    
     """
     This intialize new user account
     """
