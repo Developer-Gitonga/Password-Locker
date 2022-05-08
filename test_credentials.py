@@ -9,7 +9,7 @@ class TestCredential(unittest.TestCase):
         Credential.accounts = []
 
     def test_init(self):
-        self.assertEqual(self.new.username, "Eugene")
+        self.assertEqual(self.new.username, "Dennis")
         self.assertEqual(self.new.password, "Redcarpet")
         self.assertEqual(self.new.account_name, "Twiiter")
         self.assertEqual(self.new.account_key, 1233)
