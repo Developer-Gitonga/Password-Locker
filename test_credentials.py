@@ -14,8 +14,5 @@ class TestCredential(unittest.TestCase):
         self.assertEqual(self.new.account_name, "Twiiter")
         self.assertEqual(self.new.account_key, 1233)
 
-
-
-
 if __name__=="__main__":
     unittest.main()
