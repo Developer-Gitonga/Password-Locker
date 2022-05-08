@@ -1,4 +1,5 @@
 class User:
+    
     """
     This is where the user credentials get added
     """
