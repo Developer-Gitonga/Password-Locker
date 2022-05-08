@@ -4,6 +4,7 @@ class Credential:
     """
     accounts = []
     """
+    
     This where the account gets initialised
     """
     def __init__(self, username, password, account_name, account_key):
