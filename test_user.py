@@ -11,3 +11,4 @@ class TestUser(unittest.TestCase):
 
     def tearDown(self):
         User.users = []
+        
