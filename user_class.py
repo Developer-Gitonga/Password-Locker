@@ -14,7 +14,7 @@ class User:
         self.password = password
 
     """
-        This added the created user to the users list
+    This added the created user to the users list
         """
     def save_account(self):
         User.users.append(self)
