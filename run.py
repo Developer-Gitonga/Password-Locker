@@ -120,7 +120,5 @@ def main():
             Credential.delete_account(ask_key_del)
 
 
-
-
 if __name__ == "__main__":
     main()
