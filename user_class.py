@@ -3,6 +3,7 @@ class User:
     """
     This is where the user credentials get added
     """
+    
     users = []
     """
     This intialize new user account
