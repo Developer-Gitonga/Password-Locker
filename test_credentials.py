@@ -3,13 +3,13 @@ from credential import Credential
 
 class TestCredential(unittest.TestCase):
     def setUp(self):
-        self.new = Credential("Dennis","Redcarpet", "Twiiter", 1233)
+        self.new = Credential("Gitonga","Redcarpet", "Twiiter", 1233)
 
     def tearDown(self):
         Credential.accounts = []
 
     def test_init(self):
-        self.assertEqual(self.new.username, "Dennis")
+        self.assertEqual(self.new.username, "Gitonga")
         self.assertEqual(self.new.password, "Redcarpet")
         self.assertEqual(self.new.account_name, "Twiiter")
         self.assertEqual(self.new.account_key, 1233)
